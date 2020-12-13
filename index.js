@@ -7,7 +7,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const model = require('./config/model')
 
-mongoose.connect('mongodb://localhost:27017/employee', {useNewUrlParser: true, useUnifiedTopology: true
+mongoose.connect('mongodb://mongo:27017/employee', {useNewUrlParser: true, useUnifiedTopology: true
 }).then(() => {
  console.log('connected to db')
 }).catch((error) => {
@@ -38,7 +38,11 @@ app.post('/addemployee', (req, res) => {
    console.log(err)
   })
  })
+ app.get('/', (req, res) =>{
 
+   res.send("express is working")
+
+ })
  app.get('/getemployee/:id', (req, res) =>{
   model.findById(req.params.id, (err, user) =>{
    res.send(user)
