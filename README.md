@@ -8,7 +8,9 @@ In the project directory, you can run:
 In this app Docker have two container one is the mongodb and the other is node.js app container and 
 we are using docker-compose to link the to gether.
 
-Compose is a tool for defining and running multi-container Docker applications. 
+Compose is a tool for defining and running multi-container Docker applications and used for local developemnt purpose until upgrade.
+
+
 
 ### `Docker-compose build`
 
