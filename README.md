@@ -4,6 +4,17 @@ This is Continarized Backend API Made with Express.JS, MongoDB and Docker.
 
 ## Demo Link
    [https://backend-test-api.herokuapp.com/] ( Live API Demo )
+   
+   
+## The Data Schema
+
+  {
+    name: String,
+    dateOfBirth: date,
+    gender:String,
+    salary: BigInt
+  }
+  
 ## CRUD OPERATIONS   
    CREATE EMPLOYEE [https://backend-test-api.herokuapp.com/addemployee] <br/>
    GET EMPLOYEE BY ID [https://backend-test-api.herokuapp.com//getemployee/] + ID OF EMPLOYEE <br/>
