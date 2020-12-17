@@ -1,6 +1,16 @@
 ## Test API
 This is Continarized Backend API Made with Express.JS, MongoDB and Docker.
 
+
+## Demo Link
+   [https://backend-test-api.herokuapp.com/] (Live API Demo)
+   
+   CREATE EMPLOYEE [https://backend-test-api.herokuapp.com/addemployee]
+   GET EMPLOYEE BY ID [https://backend-test-api.herokuapp.com//getemployee/]<ID OF EMPLOYEE>
+   GET LIST OF EMPLOYEE [https://backend-test-api.herokuapp.com/getemployeelist]
+   UPDATE EMPLOYEE [https://backend-test-api.herokuapp.com/updateemployee/]<ID OF EMPLOYEE>
+   DELETE EMPLOYEE [https://backend-test-api.herokuapp.com/deleteemployee]<ID OF EMPLOYEE>
+
 ## To Run the App
 
 In the project directory, you can run:
